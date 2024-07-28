@@ -17,7 +17,7 @@ def count_pairs(nums, target):
                 left = mid + 1
             else:
                 right = mid - 1
-
+    # em casos de busca binária, analisar como o mid pode atingir o objetivo e a partir disso, andar com left ou right
     return count
 
 
